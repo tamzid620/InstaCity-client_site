@@ -17,7 +17,7 @@ export default function HomeLayout({ children }) {
         </div> 
         */}
         
-         <div className="border-x-2 lg:max-w-lg md:max-w-md sm:max-w-sm w-full h-screen flex flex-col mx-auto flex-grow">
+         <div className="shadow-2xl shadow-blue-100 lg:max-w-lg md:max-w-md sm:max-w-sm w-full h-screen flex flex-col mx-auto flex-grow">
           <Navbar />
           <main className="flex-grow">{children}</main>
           <Footer />
