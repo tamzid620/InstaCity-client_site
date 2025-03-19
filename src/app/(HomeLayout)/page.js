@@ -6,7 +6,7 @@ export const metadata = {
 
 const  Home = ()  =>  {
   return (
-   <div className="px-4">
+   <div className="px-4 bg-white text-black">
 <h1>Home</h1>
    </div>
   );
