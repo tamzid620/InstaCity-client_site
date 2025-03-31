@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <main className={` ${tangerine.className} px-4 py-4 bg-blue-950`}>
-      <div className="flex justify-between items-center">
+    <main className={` ${tangerine.className}  sticky top-0 z-40`}>
+      <div className="flex justify-between items-center px-4 py-4 bg-blue-950">
         <section>
           <h1 className="text-4xl font-bold ">InstaCity</h1>
         </section>
