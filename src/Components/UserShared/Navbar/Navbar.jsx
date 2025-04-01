@@ -6,12 +6,12 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <main className={` ${tangerine.className}  sticky top-0 z-40`}>
-      <div className="flex justify-between items-center px-4 py-4 bg-blue-950">
+    <main className={` ${tangerine.className} fixed top-0 z-40 `}>
+      <div className="flex justify-between items-center px-4 py-4 bg-blue-950 lg:w-[238%]  md:w-[208%] sm: w-[178%]">
         <section>
-          <h1 className="text-4xl font-bold ">InstaCity</h1>
+          <h1 className="text-4xl font-bold text-white">InstaCity</h1>
         </section>
-        <section className={`${tektur.className} flex gap-8 `}>
+        <section className={`${tektur.className} flex gap-8 text-white`}>
           <div title="notification" className="relative">
             <Image
               src={notificationIcon}

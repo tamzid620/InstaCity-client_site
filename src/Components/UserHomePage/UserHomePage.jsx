@@ -42,11 +42,11 @@ const postData = [
 const UserHomePage = () => {
   return (
     <main>
-      <div className="">
-        <div className="">
+      <div>
+        <div className="pt-5">
             {
                 postData.map(({id, dpPic, postImg}) => (
-                    <div key={id} className="bg-black mb-5">
+                    <div key={id} className="mb-5">
                         <Image
                           src={dpPic}
                           alt="profile dp"

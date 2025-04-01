@@ -11,9 +11,8 @@ export const metadata = {
 
 const Home = () => {
 
-
   return (
-    <div className="px-4 h-[86vh] bg-white text-black pt-5">
+    <div className="px-4 h-[86vh] mt-[72px] ">
       <UserHomePage />
     </div>
   );

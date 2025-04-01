@@ -9,11 +9,11 @@ export default function HomeLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className=" lg:max-w-lg md:max-w-md sm: max-w-sm h-screen mx-auto">
+        <div className=" lg:max-w-lg md:max-w-md sm: max-w-sm mx-auto shadow-xl ">
           <Navbar />
           <main >{children}</main>
           <Footer />
-        </div>
+        </div>    
 
       </body>
     </html>
