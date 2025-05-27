@@ -7,7 +7,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <main className={` ${tangerine.className} fixed top-0 z-40 `}>
-      <div className="flex justify-between items-center px-4 py-4 bg-blue-950 lg:w-[238%]  md:w-[208%] sm: w-[178%]">
+      <div className="flex justify-between items-center px-4 py-4 bg-blue-950 w-[180%]">
         <section>
           <h1 className="text-4xl font-bold text-white">InstaCity</h1>
         </section>

@@ -1,5 +1,5 @@
 
-import UserHomePage from '@/Components/UserHomePage/UserHomePage';
+import UserHome from '@/Components/UserPages/UserHome/UserHome';
 import React from 'react';
 
 export const metadata = {
@@ -12,8 +12,8 @@ export const metadata = {
 const Home = () => {
 
   return (
-    <div className="px-4 h-[86vh] mt-[72px] ">
-      <UserHomePage />
+    <div className="w-full mt-[72px]">
+      <UserHome />
     </div>
   );
 }

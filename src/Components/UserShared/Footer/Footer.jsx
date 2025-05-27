@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="fixed bottom-0 z-40">
-      <div className="flex justify-between items-center px-10 py-4 bg-blue-950 lg:w-[291%] md:w-[255%] sm: w-[220%]">
+      <div className="flex justify-between items-center px-10 py-4 bg-blue-950 w-[220%]">
         <div>
           <Image src={icon1} alt="tab icon" title="home icon" className="w-8" />
         </div>
